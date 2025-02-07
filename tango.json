@@ -1,0 +1,307 @@
+{
+  "uuid": "918b5b97-d06a-4bca-b4bd-f62ec8e55168",
+  "lastMigration": 32,
+  "name": "Test",
+  "endpointPrefix": "api/v1",
+  "latency": 0,
+  "port": 3001,
+  "hostname": "",
+  "folders": [],
+  "routes": [
+    {
+      "uuid": "e38ce422-c3d3-4bc6-8884-7d2d6d709684",
+      "type": "crud",
+      "documentation": "",
+      "method": "",
+      "endpoint": "tags",
+      "responses": [
+        {
+          "uuid": "c71cabe9-69d0-4538-a977-20c2e34805f4",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "DATABUCKET",
+          "filePath": "",
+          "databucketID": "1nsy",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null
+    },
+    {
+      "uuid": "325cac5f-694a-4249-b043-bf521105be47",
+      "type": "crud",
+      "documentation": "",
+      "method": "",
+      "endpoint": "categories",
+      "responses": [
+        {
+          "uuid": "f0b7dd83-758f-4e96-8bc5-8852767f024a",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "DATABUCKET",
+          "filePath": "",
+          "databucketID": "1nsy",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null
+    },
+    {
+      "uuid": "5fa5a964-7db8-4dc8-9fea-cd9ad4a151fa",
+      "type": "crud",
+      "documentation": "",
+      "method": "",
+      "endpoint": "products",
+      "responses": [
+        {
+          "uuid": "08422f1d-fd33-4f78-81a0-1ec01b7dc388",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "DATABUCKET",
+          "filePath": "",
+          "databucketID": "2jz4",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null
+    },
+    {
+      "uuid": "1b0ec48f-6489-42d0-9057-135c1a801a9c",
+      "type": "crud",
+      "documentation": "",
+      "method": "",
+      "endpoint": "orders",
+      "responses": [
+        {
+          "uuid": "ec9351d8-c8fa-4964-8eb9-deaad9be25ca",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "DATABUCKET",
+          "filePath": "",
+          "databucketID": "nttg",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null
+    },
+    {
+      "uuid": "f7a6abcf-0eea-4cd1-b855-59b8ae544929",
+      "type": "crud",
+      "documentation": "",
+      "method": "",
+      "endpoint": "users",
+      "responses": [
+        {
+          "uuid": "81284d7d-581b-445f-bf36-a61f5ddf6e9d",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "DATABUCKET",
+          "filePath": "",
+          "databucketID": "eydl",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null
+    },
+    {
+      "uuid": "e5c60bbe-5908-4d42-a70e-8ea9206120fe",
+      "type": "crud",
+      "documentation": "",
+      "method": "",
+      "endpoint": "roles",
+      "responses": [
+        {
+          "uuid": "f8ba710b-f570-49d8-8663-b3b147e4d9de",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "DATABUCKET",
+          "filePath": "",
+          "databucketID": "322f",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null
+    }
+  ],
+  "rootChildren": [
+    {
+      "type": "route",
+      "uuid": "e38ce422-c3d3-4bc6-8884-7d2d6d709684"
+    },
+    {
+      "type": "route",
+      "uuid": "325cac5f-694a-4249-b043-bf521105be47"
+    },
+    {
+      "type": "route",
+      "uuid": "5fa5a964-7db8-4dc8-9fea-cd9ad4a151fa"
+    },
+    {
+      "type": "route",
+      "uuid": "1b0ec48f-6489-42d0-9057-135c1a801a9c"
+    },
+    {
+      "type": "route",
+      "uuid": "f7a6abcf-0eea-4cd1-b855-59b8ae544929"
+    },
+    {
+      "type": "route",
+      "uuid": "e5c60bbe-5908-4d42-a70e-8ea9206120fe"
+    }
+  ],
+  "proxyMode": false,
+  "proxyHost": "",
+  "proxyRemovePrefix": false,
+  "tlsOptions": {
+    "enabled": false,
+    "type": "CERT",
+    "pfxPath": "",
+    "certPath": "",
+    "keyPath": "",
+    "caPath": "",
+    "passphrase": ""
+  },
+  "cors": true,
+  "headers": [
+    {
+      "key": "Content-Type",
+      "value": "application/json"
+    },
+    {
+      "key": "Access-Control-Allow-Origin",
+      "value": "*"
+    },
+    {
+      "key": "Access-Control-Allow-Methods",
+      "value": "GET,POST,PUT,PATCH,DELETE,HEAD,OPTIONS"
+    },
+    {
+      "key": "Access-Control-Allow-Headers",
+      "value": "Content-Type, Origin, Accept, Authorization, Content-Length, X-Requested-With"
+    }
+  ],
+  "proxyReqHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "proxyResHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "data": [
+    {
+      "uuid": "27cbbba8-0284-4f69-beed-7a15cb4f320e",
+      "id": "1nsy",
+      "name": "tags",
+      "documentation": "",
+      "value": "[\r\n    {\r\n        \"id\": 1,\r\n        \"name\": \"navidad\"\r\n    },\r\n    {\r\n        \"id\": 2,\r\n        \"name\": \"día de la madre\"\r\n    },\r\n    {\r\n        \"id\": 3,\r\n        \"name\": \"verano\"\r\n    },\r\n    {\r\n        \"id\": 4,\r\n        \"name\": \"regalo\"\r\n    },\r\n    {\r\n        \"id\": 5,\r\n        \"name\": \"día de san valentín\"\r\n    },\r\n    {\r\n        \"id\": 6,\r\n        \"name\": \"cumpleaños\"\r\n    },\r\n    {\r\n        \"id\": 7,\r\n        \"name\": \"aniversario\"\r\n    },\r\n    {\r\n        \"id\": 8,\r\n        \"name\": \"boda\"\r\n    },\r\n    {\r\n        \"id\": 9,\r\n        \"name\": \"felicitaciones\"\r\n    },\r\n    {\r\n        \"id\": 10,\r\n        \"name\": \"sentido pésame\"\r\n    },\r\n    {\r\n        \"id\": 11,\r\n        \"name\": \"que te mejores\"\r\n    },\r\n    {\r\n        \"id\": 12,\r\n        \"name\": \"nuevo bebé\"\r\n    },\r\n    {\r\n        \"id\": 13,\r\n        \"name\": \"gracias\"\r\n    },\r\n    {\r\n        \"id\": 14,\r\n        \"name\": \"graduación\"\r\n    },\r\n    {\r\n        \"id\": 15,\r\n        \"name\": \"pascua\"\r\n    },\r\n    {\r\n        \"id\": 16,\r\n        \"name\": \"acción de gracias\"\r\n    },\r\n    {\r\n        \"id\": 17,\r\n        \"name\": \"primavera\"\r\n    },\r\n    {\r\n        \"id\": 18,\r\n        \"name\": \"otoño\"\r\n    },\r\n    {\r\n        \"id\": 19,\r\n        \"name\": \"romántico\"\r\n    }\r\n]"
+    },
+    {
+      "uuid": "b117b6f0-13c9-4a4e-9e62-d4e15fa3282d",
+      "id": "cvlm",
+      "name": "categories",
+      "documentation": "",
+      "value": "[\r\n    {\r\n        \"id\": 1,\r\n        \"name\": \"Flores Clásicas\"\r\n    },\r\n    {\r\n        \"id\": 2,\r\n        \"name\": \"Flores Elegantes\"\r\n    },\r\n    {\r\n        \"id\": 3,\r\n        \"name\": \"Flores de Temporada\"\r\n    },\r\n    {\r\n        \"id\": 4,\r\n        \"name\": \"Flores Exóticas\"\r\n    },\r\n    {\r\n        \"id\": 5,\r\n        \"name\": \"Ramos Especiales\"\r\n    }\r\n]"
+    },
+    {
+      "uuid": "25f1b75b-e576-439a-9a87-e61d9e58fb0a",
+      "id": "2jz4",
+      "name": "products",
+      "documentation": "",
+      "value": "[\r\n    {\r\n        \"id\": 10,\r\n        \"name\": \"Rosas Rojas\",\r\n        \"description\": \"Un ramo de rosas rojas frescas, ideal para expresar amor.\",\r\n        \"quantity\": 25,\r\n        \"price\": 15.99,\r\n        \"category\": {\r\n            \"id\": 1,\r\n            \"name\": \"Flores Clásicas\"\r\n        },\r\n        \"tags\": [\r\n            {\r\n                \"id\": 5,\r\n                \"name\": \"día de san valentín\"\r\n            },\r\n            {\r\n                \"id\": 19,\r\n                \"name\": \"romántico\"\r\n            }\r\n        ],\r\n        \"img\": \"https://cdn.pixabay.com/photo/2020/07/10/13/40/flower-5390711_1280.jpg\"\r\n    },\r\n    {\r\n        \"id\": 11,\r\n        \"name\": \"Lirios Blancos\",\r\n        \"description\": \"Elegantes lirios blancos que simbolizan pureza y renovación.\",\r\n        \"quantity\": 30,\r\n        \"price\": 12.50,\r\n        \"category\": {\r\n            \"id\": 2,\r\n            \"name\": \"Flores Elegantes\"\r\n        },\r\n        \"tags\": [\r\n            {\r\n                \"id\": 4,\r\n                \"name\": \"regalo\"\r\n            },\r\n            {\r\n                \"id\": 9,\r\n                \"name\": \"felicitaciones\"\r\n            }\r\n        ],\r\n        \"img\": \"https://cdn.pixabay.com/photo/2020/07/10/13/40/flower-5390711_1280.jpg\"\r\n    },\r\n    {\r\n        \"id\": 12,\r\n        \"name\": \"Tulipanes Multicolor\",\r\n        \"description\": \"Tulipanes de varios colores para alegrar cualquier ocasión.\",\r\n        \"quantity\": 20,\r\n        \"price\": 18.00,\r\n        \"category\": {\r\n            \"id\": 3,\r\n            \"name\": \"Flores de Temporada\"\r\n        },\r\n        \"tags\": [\r\n            {\r\n                \"id\": 17,\r\n                \"name\": \"primavera\"\r\n            },\r\n            {\r\n                \"id\": 3,\r\n                \"name\": \"verano\"\r\n            }\r\n        ],\r\n        \"img\": \"https://cdn.pixabay.com/photo/2020/07/10/13/40/flower-5390711_1280.jpg\"\r\n    },\r\n    {\r\n        \"id\": 13,\r\n        \"name\": \"Orquídeas Exóticas\",\r\n        \"description\": \"Orquídeas raras y exóticas, perfectas para un regalo único.\",\r\n        \"quantity\": 15,\r\n        \"price\": 25.00,\r\n        \"category\": {\r\n            \"id\": 4,\r\n            \"name\": \"Flores Exóticas\"\r\n        },\r\n        \"tags\": [\r\n            {\r\n                \"id\": 7,\r\n                \"name\": \"aniversario\"\r\n            },\r\n            {\r\n                \"id\": 9,\r\n                \"name\": \"felicitaciones\"\r\n            }\r\n        ],\r\n        \"img\": \"https://cdn.pixabay.com/photo/2020/07/10/13/40/flower-5390711_1280.jpg\"\r\n    },\r\n    {\r\n        \"id\": 14,\r\n        \"name\": \"Margaritas Amarillas\",\r\n        \"description\": \"Margaritas brillantes y soleadas para alegrar el día.\",\r\n        \"quantity\": 40,\r\n        \"price\": 10.99,\r\n        \"category\": {\r\n            \"id\": 1,\r\n            \"name\": \"Flores Clásicas\"\r\n        },\r\n        \"tags\": [\r\n            {\r\n                \"id\": 17,\r\n                \"name\": \"primavera\"\r\n            },\r\n            {\r\n                \"id\": 3,\r\n                \"name\": \"verano\"\r\n            }\r\n        ],\r\n        \"img\": \"https://cdn.pixabay.com/photo/2020/07/10/13/40/flower-5390711_1280.jpg\"\r\n    },\r\n    {\r\n        \"id\": 15,\r\n        \"name\": \"Ramo Mixto\",\r\n        \"description\": \"Una combinación de flores frescas en un solo ramo colorido.\",\r\n        \"quantity\": 50,\r\n        \"price\": 22.75,\r\n        \"category\": {\r\n            \"id\": 5,\r\n            \"name\": \"Ramos Especiales\"\r\n        },\r\n        \"tags\": [\r\n            {\r\n                \"id\": 3,\r\n                \"name\": \"verano\"\r\n            },\r\n            {\r\n                \"id\": 19,\r\n                \"name\": \"romántico\"\r\n            },\r\n            {\r\n                \"id\": 9,\r\n                \"name\": \"felicitaciones\"\r\n            }\r\n        ],\r\n        \"img\": \"https://cdn.pixabay.com/photo/2020/07/10/13/40/flower-5390711_1280.jpg\"\r\n    }\r\n]"
+    },
+    {
+      "uuid": "992680ae-2cc7-42ab-a6d3-8601342fbf1f",
+      "id": "nttg",
+      "name": "orders",
+      "documentation": "",
+      "value": "[\r\n  {\r\n    \"id\": 1,\r\n    \"date\": \"31-08-2024\",\r\n    \"client_id\": 101,\r\n    \"total\": 15.99,\r\n    \"order_status_id\": {\r\n      \"id\": 1,\r\n      \"name\": \"Pendiente\"\r\n    },\r\n    \"delivery_date\": \"02-09-2024\",\r\n    \"additional_information\": \"Entrega a las 3pm en la dirección indicada\",\r\n    \"order_details\": [\r\n      {\r\n        \"order_id\": 1,\r\n        \"product_id\": 10,\r\n        \"quantity\": 1,\r\n        \"price\": 15.99,\r\n        \"total\": 15.99\r\n      }\r\n    ]\r\n  },\r\n  {\r\n    \"id\": 2,\r\n    \"date\": \"29-08-2024\",\r\n    \"client_id\": 102,\r\n    \"total\": 63.94,\r\n    \"order_status_id\": {\r\n      \"id\": 2,\r\n      \"name\": \"Completo\"\r\n    },\r\n    \"delivery_date\": \"01-09-2024\",\r\n    \"additional_information\": \"Incluir una tarjeta de felicitaciones\",\r\n    \"order_details\": [\r\n      {\r\n        \"order_id\": 2,\r\n        \"product_id\": 10,\r\n        \"quantity\": 4,\r\n        \"price\": 15.99,\r\n        \"total\": 63.94\r\n      }\r\n    ]\r\n  },\r\n  {\r\n    \"id\": 3,\r\n    \"date\": \"28-08-2024\",\r\n    \"client_id\": 103,\r\n    \"total\": 12.50,\r\n    \"order_status_id\": {\r\n      \"id\": 1,\r\n      \"name\": \"Pendiente\"\r\n    },\r\n    \"delivery_date\": \"29-08-2024\",\r\n    \"additional_information\": \"Entrega urgente\",\r\n    \"order_details\": [\r\n      {\r\n        \"order_id\": 3,\r\n        \"product_id\": 11,\r\n        \"quantity\": 1,\r\n        \"price\": 12.50,\r\n        \"total\": 12.50\r\n      }\r\n    ]\r\n  },\r\n  {\r\n    \"id\": 4,\r\n    \"date\": \"30-08-2024\",\r\n    \"client_id\": 104,\r\n    \"total\": 68.00,\r\n    \"order_status_id\": {\r\n      \"id\": 2,\r\n      \"name\": \"Completo\"\r\n    },\r\n    \"delivery_date\": \"30-08-2024\",\r\n    \"additional_information\": \"Entregar 1pm\",\r\n    \"order_details\": [\r\n      {\r\n        \"order_id\": 4,\r\n        \"product_id\": 12,\r\n        \"quantity\": 1,\r\n        \"price\": 18.00,\r\n        \"total\": 18.00\r\n      },\r\n      {\r\n        \"order_id\": 4,\r\n        \"product_id\": 13,\r\n        \"quantity\": 2,\r\n        \"price\": 25.00,\r\n        \"total\": 50.00\r\n      }\r\n    ]\r\n  },\r\n  {\r\n    \"id\": 5,\r\n    \"date\": \"28-08-2024\",\r\n    \"client_id\": 105,\r\n    \"total\": 10.99,\r\n    \"order_status_id\": {\r\n      \"id\": 2,\r\n      \"name\": \"Completo\"\r\n    },\r\n    \"delivery_date\": \"29-08-2024\",\r\n    \"additional_information\": \"Entrega urgente\",\r\n    \"order_details\": [\r\n      {\r\n        \"order_id\": 5,\r\n        \"product_id\": 14,\r\n        \"quantity\": 1,\r\n        \"price\": 10.99,\r\n        \"total\": 10.99\r\n      }\r\n    ]\r\n  }\r\n]\r\n"
+    },
+    {
+      "uuid": "a4336d4d-bd29-4741-aa4a-32e238a52e09",
+      "id": "eydl",
+      "name": "users",
+      "documentation": "",
+      "value": "[\r\n  {\r\n    \"id\": 101,\r\n    \"create_date\": \"2024-08-02\",\r\n    \"email\": \"john.doe@example.com\",\r\n    \"enabled\": 1,\r\n    \"first_name\": \"John\",\r\n    \"last_name\": \"Doe\",\r\n    \"password\": \"123456\",\r\n    \"token_expired\": 0,\r\n    \"role_id\": {\r\n      \"id\": 1,\r\n      \"name\": \"Administrador\"\r\n    },\r\n    \"address\": \"123 Maple Street\"\r\n  },\r\n  {\r\n    \"id\": 102,\r\n    \"create_date\": \"2024-08-03\",\r\n    \"email\": \"jane.smith@example.com\",\r\n    \"enabled\": 1,\r\n    \"first_name\": \"Jane\",\r\n    \"last_name\": \"Smith\",\r\n    \"password\": \"abcdef\",\r\n    \"token_expired\": 0,\r\n    \"role_id\":  {\r\n      \"id\": 2,\r\n      \"name\": \"Cliente\"\r\n    },\r\n    \"address\": \"456 Oak Avenue\"\r\n  },\r\n  {\r\n    \"id\": 103,\r\n    \"create_date\": \"2024-08-04\",\r\n    \"email\": \"peter.jones@example.com\",\r\n    \"enabled\": 0,\r\n    \"first_name\": \"Peter\",\r\n    \"last_name\": \"Jones\",\r\n    \"password\": \"qwerty\",\r\n    \"token_expired\": 0,\r\n    \"role_id\": {\r\n      \"id\": 1,\r\n      \"name\": \"Administrador\"\r\n    },\r\n    \"address\": \"789 Pine Lane\"\r\n  },\r\n  {\r\n    \"id\": 104,\r\n    \"create_date\": \"2024-08-05\",\r\n    \"email\": \"emma.brown@example.com\",\r\n    \"enabled\": 1,\r\n    \"first_name\": \"Emma\",\r\n    \"last_name\": \"Brown\",\r\n    \"password\": \"pass123\",\r\n    \"token_expired\": 0,\r\n    \"role_id\":  {\r\n      \"id\": 2,\r\n      \"name\": \"Cliente\"\r\n    },\r\n    \"address\": \"321 Birch Road\"\r\n  },\r\n  {\r\n    \"id\": 105,\r\n    \"create_date\": \"2024-08-06\",\r\n    \"email\": \"liam.davis@example.com\",\r\n    \"enabled\": 1,\r\n    \"first_name\": \"Liam\",\r\n    \"last_name\": \"Davis\",\r\n    \"password\": \"password\",\r\n    \"token_expired\": 0,\r\n    \"role_id\":  {\r\n      \"id\": 2,\r\n      \"name\": \"Cliente\"\r\n    },\r\n    \"address\": \"654 Cedar Street\"\r\n  }\r\n]\r\n"
+    },
+    {
+      "uuid": "0c49bf57-7286-482e-b89d-2a6afb90c23d",
+      "id": "322f",
+      "name": "roles",
+      "documentation": "",
+      "value": "[\r\n  {\r\n    \"id\": 1,\r\n    \"name\": \"Administrador\"\r\n  },\r\n  {\r\n    \"id\": 2,\r\n    \"name\": \"Cliente\"\r\n  }\r\n]\r\n"
+    },
+    {
+      "uuid": "95a0fe7b-11e0-478d-9376-f6eb6a85633a",
+      "id": "gz96",
+      "name": "statuses",
+      "documentation": "",
+      "value": "[\r\n  {\r\n    \"id\": 1,\r\n    \"name\": \"Pendiente\"\r\n  },\r\n  {\r\n    \"id\": 2,\r\n    \"name\": \"Completo\"\r\n  },\r\n   {\r\n    \"id\": 3,\r\n    \"name\": \"Cancelado\"\r\n  }\r\n]\r\n"
+    }
+  ],
+  "callbacks": []
+}
